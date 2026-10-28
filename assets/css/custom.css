@@ -1,6 +1,8 @@
 /* Small overrides on top of the AcademicPages / Minimal Mistakes stylesheet. */
 html { scroll-padding-top: 4em; }           /* keep headings clear of the sticky top bar */
 .author__urls_sm { white-space: nowrap; }   /* icon row on small screens stays on one line */
-.author__bio { font-size: 0.85em; }         /* long email fits the sidebar width */
-@media (min-width: 57.8125em) { .author__bio { white-space: nowrap; } }
-@media (max-width: 57.8124em) { .author__urls_sm { font-size: 1.4em; } }
+.author__bio { font-size: 0.85em; white-space: nowrap; }   /* long email on one line in the sidebar */
+@media (max-width: 57.8124em) {
+  .author__bio .email-tail { display: block; }             /* on phones, break after the @ */
+  .author__urls_sm { font-size: 1.4em; }
+}
