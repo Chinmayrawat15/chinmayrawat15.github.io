@@ -1,0 +1,4 @@
+/* Small overrides on top of the AcademicPages / Minimal Mistakes stylesheet. */
+html { scroll-padding-top: 4em; }           /* keep headings clear of the sticky top bar */
+.author__urls_sm { white-space: nowrap; }   /* icon row on small screens stays on one line */
+.author__bio { overflow-wrap: anywhere; }   /* long email never pushes the icons around */
