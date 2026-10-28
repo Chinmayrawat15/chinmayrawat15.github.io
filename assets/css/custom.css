@@ -1,4 +1,5 @@
 /* Small overrides on top of the AcademicPages / Minimal Mistakes stylesheet. */
 html { scroll-padding-top: 4em; }           /* keep headings clear of the sticky top bar */
 .author__urls_sm { white-space: nowrap; }   /* icon row on small screens stays on one line */
-.author__bio { overflow-wrap: anywhere; }   /* long email never pushes the icons around */
+.author__bio { font-size: 0.9em; }          /* long email fits the sidebar width */
+@media (max-width: 57.8124em) { .author__bio { overflow-wrap: anywhere; } }
