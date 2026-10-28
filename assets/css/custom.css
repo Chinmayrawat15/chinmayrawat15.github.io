@@ -3,6 +3,6 @@ html { scroll-padding-top: 4em; }           /* keep headings clear of the sticky
 .author__urls_sm { white-space: nowrap; }   /* icon row on small screens stays on one line */
 .author__bio { font-size: 0.9em; }          /* long email fits the sidebar width */
 @media (max-width: 57.8124em) {
-  .author__bio { font-size: 0.85em; overflow-wrap: anywhere; }
+  .author__bio { font-size: 0.85em; }
   .author__urls_sm { font-size: 1.4em; }
 }
